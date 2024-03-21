@@ -1,0 +1,40 @@
+body {
+  /* border: 4px solid crimson; */
+  font-size: 1.2rem;
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  color: brown;
+  font-weight: 900;
+  /* text-transform: uppercase; */
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Waiting for the Sunrise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  font-size: 1.4rem;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: coral;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+p {
+  line-height: 1.4;
+  padding-bottom: 10px;
+}
