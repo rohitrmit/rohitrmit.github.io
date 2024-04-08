@@ -1,0 +1,78 @@
+h1 {
+  color: red;
+}
+
+/* #my-id {
+  color: chocolate;
+} */
+
+/* .my-heading {
+  color: green;
+} */
+
+h1 {
+  color: pink;
+  text-align: left;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/* i went with freckle because  */
+.freckle-face-regular {
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.my-heading {
+  color: black;
+}
+
+.my-heading .my-color {
+  color: green;
+}
+body {
+  /* text-align: center; */
+  border: 3px solid lightcoral;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  /* width: 400px; */
+  /* background-image: linear-gradient(
+    to bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  ); */
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active,
+a:visited {
+  color: green;
+}
