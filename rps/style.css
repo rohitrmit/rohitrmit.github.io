@@ -1,0 +1,100 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  font-size: 1.3rem;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 4rem;
+}
+.outer {
+  border: 1px dashed #e5e5cb9e;
+  min-height: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  flex-shrink: 0;
+}
+
+/* adding pointer based cursor to indicate to user that it is a button   */
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/* enlarge the button by 10% on hover  */
+button:hover {
+  scale: 1.1;
+}
+
+button:active {
+  scale: 1.1;
+}
+
+/* For consistency, all images have default size of 150x300  */
+img {
+  width: 150px;
+  height: 300px;
+  padding: 10px;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.rock {
+  background-color: limegreen;
+}
+.paper {
+  background-color: purple;
+}
+#box3 {
+  background-color: aquamarine;
+}
+.scissors {
+  background-color: coral;
+}
+
+/* We use space between to arrange both choices on extreme end
+  User's choice on left and computer's choice on right.  */
+
+#selection {
+  display: flex;
+  justify-content: space-between;
+  min-height: 1.5rem;
+}
+
+#result {
+  font-size: 2rem;
+  text-transform: uppercase;
+  min-height: 2rem;
+}
+
+.tie {
+  color: aquamarine;
+}
+.win {
+  color: goldenrod;
+}
+
+.loose {
+  color: crimson;
+}
