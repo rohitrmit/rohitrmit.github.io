@@ -61,7 +61,8 @@ const fullscreenButton = document.querySelector("#fullscreen-button");
 
 fullscreenButton.addEventListener("click", goFullScreen);
 
-function goFullScreen() {
+function goFullScreen(event) {
+  event.preventDefault();
   if (!document.fullscreenElement) {
     myVideo.requestFullscreen();
   } else {
