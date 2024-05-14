@@ -1,0 +1,80 @@
+<!-- For this assignment I have chosen a context of DJ:
+
+Here are my rationale for the semantics:
+
+I went with three sections <section></section> enclosed in a big <div> called "outer"
+1) section: video-container 
+   it contains the video
+2) section: video-controls
+   it contains all the buttons that I am using to control the video 
+   I went with a flexbox to style this so that all buttons are spaced nicely 
+   next to each other -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="outer">
+      <section class="video-container">
+        <video
+          src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/miac.mp4"
+          id="dj-video"
+          controls
+        ></video>
+      </section>
+      <section class="video-controls">
+        <button id="play-pause-button">
+          <img
+            id="play-pause-img"
+            src="https://img.icons8.com/ios-glyphs/30/play--v2.png"
+            alt="Play Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <button id="mute-unmute-button">
+          <img
+            id="mute-unmute-img"
+            src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png"
+            alt="Mute Unmute Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <button id="fullscreen-button">
+          <img
+            id="fullscreen-img"
+            src="https://img.icons8.com/ios-glyphs/30/full-screen--v1.png"
+            alt="Fullscreen Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <div class="progress-bar">
+          <span id="progress-bar-fill"></span>
+        </div>
+      </section>
+      <section class="timeline">
+        <button id="step-1-button">Step 1</button>
+        <button id="step-2-button">Step 2</button>
+      </section>
+    </div>
+    <footer>
+      <a href="https://icons8.com/icon/61001/mute">Mute</a> icon by
+      <a href="https://icons8.com">Icons8</a>
+    </footer>
+  </body>
+</html>
