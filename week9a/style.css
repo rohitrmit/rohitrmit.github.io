@@ -1,0 +1,215 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 1.5rem;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /* background-color: cornsilk; */
+  /* transition: opacity 0.5s ease, transform 0.5s ease,
+    background-color 0.5s ease rotate 0.5s ease; */
+}
+
+.outer:hover {
+  rotate: 10deg;
+  /* background-color: lightsalmon; */
+}
+
+button {
+  padding: 20px;
+  font-size: 2rem;
+  background-color: cornflowerblue;
+  border: none;
+  /* transition: background-color 0.5s ease scale 0.5s ease translate 0.5s ease
+    rotate 0.5s ease; */
+}
+
+button:hover {
+  background-color: rgb(17, 48, 105);
+  scale: 0.9;
+  translate: 10px;
+  /* transform: translateX(10px); */
+  rotate: -20deg;
+}
+
+input {
+  padding: 10px;
+  border: 3px solid lime;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in;
+}
+
+input:hover {
+  border-color: crimson;
+}
+
+.fill-icon {
+  transition: fill 0.4s ease;
+}
+
+.fill-icon:hover {
+  fill: #007bff;
+}
+
+.duck-icon {
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+
+  /* transition: scale 0.4s ease; */
+}
+
+.duck-icon:hover {
+  /* scale: 1.1; */
+}
+
+#box1 {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: cornsilk;
+  animation-name: border-switch;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  border-width: 6px;
+}
+
+@keyframes color-switch {
+  0% {
+    background-color: purple;
+  }
+  20% {
+    background-color: lawngreen;
+  }
+  40% {
+    background-color: coral;
+  }
+  60% {
+    background-color: goldenrod;
+  }
+  80% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes border-switch {
+  0% {
+    border-color: purple;
+  }
+  20% {
+    border-color: lawngreen;
+  }
+  40% {
+    border-color: coral;
+  }
+  60% {
+    border-color: goldenrod;
+  }
+  80% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: purple;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    translate: 0px 0px;
+  }
+
+  50% {
+    translate: 0px -20px;
+  }
+
+  25% {
+    translate: 0px -50px;
+  }
+
+  100% {
+    translate: 0px 0px;
+  }
+}
+
+.spinner {
+  width: 120px;
+  height: 120px;
+  /* background-color: white; */
+  border: 6px solid cornsilk;
+  border-top: 6px solid crimson;
+  animation-name: loading;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+}
+
+@keyframes loading {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  animation: heartbeat 2s infinite ease;
+}
+
+@keyframes heartbeat {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.2;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+#side-drawer {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  background-color: cornflowerblue;
+  height: 100vh;
+  transition: translate 0.5s ease;
+}
