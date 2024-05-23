@@ -1,0 +1,199 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 1.5rem;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /* background-color: cornsilk; */
+  transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+}
+
+button {
+  padding: 20px;
+  font-size: 2rem;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.4s ease scale 0.4s ease rotate 0.4s ease;
+}
+
+button:hover {
+  background-color: rgb(33, 47, 74);
+  scale: 0.8;
+  /* rotate: 10deg;  */
+}
+
+input {
+  padding: 10px;
+  border: 6px solid lime;
+  border-radius: 15px;
+  transition: border-color 0.5s linear;
+}
+
+input:hover {
+  border-color: crimson;
+}
+
+.fill-icon {
+  cursor: pointer;
+  transition: fill 0.5s linear;
+}
+.fill-icon:hover {
+  fill: blue;
+}
+
+.duck-icon {
+  /* transition: scale 0.5s ease; */
+  /* transition: translate 0.5s ease; */
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.duck-icon:hover {
+  /* translate: 0px -40px; */
+  /* scale: 1.2; */
+}
+
+@keyframes bounce {
+  0% {
+    translate: 0px 0px;
+  }
+  50% {
+    translate: 0px -40px;
+  }
+  100% {
+    translate: 0px 0px;
+  }
+}
+
+.box {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  animation-name: border-switch;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-width: 6px;
+}
+
+@keyframes color-switch {
+  0% {
+    background-color: purple;
+  }
+  20% {
+    background-color: lime;
+  }
+  40% {
+    background-color: blue;
+  }
+  60% {
+    background-color: coral;
+  }
+  80% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes border-switch {
+  0% {
+    border-color: purple;
+  }
+  20% {
+    border-color: lime;
+  }
+  40% {
+    border-color: blue;
+  }
+  60% {
+    border-color: coral;
+  }
+  80% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: purple;
+  }
+}
+
+.spinner {
+  width: 120px;
+  height: 120px;
+  /* background-color: cornsilk; */
+  border: 6px solid cornsilk;
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-top-color: crimson;
+  border-radius: 50%;
+}
+
+@keyframes loading {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.heart-icon {
+  animation: heartbeat 2s linear infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 0.7;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+#side-drawer {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background-color: lightskyblue;
+  top: 0;
+  left: -200px;
+  transition: translate 0.5s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
