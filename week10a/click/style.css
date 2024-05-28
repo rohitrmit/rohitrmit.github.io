@@ -1,0 +1,64 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: cornsilk;
+  scale: 0.9;
+}
+
+.inner {
+  padding: 10px;
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  text-align: right;
+}
+.inner p {
+  color: #3c2a21;
+}
+
+#heart-icon {
+  padding-top: 4px;
+  width: 30px;
+  height: 40px;
+}
+
+h3 {
+  font-size: 2rem;
+}
