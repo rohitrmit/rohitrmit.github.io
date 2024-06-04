@@ -1,0 +1,71 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* color: #e5e5cb; */
+  color: #3c2a21;
+  font-size: 1.1rem;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header button {
+  padding: 20px;
+  text-align: right;
+  margin-right: 10px;
+  background-color: cornsilk;
+  border: none;
+  cursor: pointer;
+  color: black;
+  min-width: 130px;
+}
+
+header button:hover {
+  background-color: rgb(165, 160, 142);
+}
+
+/* Dropdown content (hidden by default) */
+#profile-content {
+  display: none;
+  margin-right: 10px;
+  position: absolute;
+  top: 100%; /* Position the content below the button */
+  right: 0;
+  background-color: cornsilk;
+  min-width: 130px;
+  z-index: 1;
+  text-align: right;
+}
+
+/* Links inside the dropdown */
+#profile-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#profile-content a:hover {
+  background-color: rgb(165, 160, 142);
+}
+
+#profile-content.show {
+  display: block;
+}
