@@ -1,0 +1,98 @@
+* {
+  color: hotpink;
+}
+
+.my-class {
+  color: green;
+}
+/* cmd + /  */
+/* i colored all my h1 brown because blah blah  */
+h1 {
+  color: brown;
+  font-size: 3rem;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  color: blue;
+  font-size: 2.2rem;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+p,
+h3 {
+  color: red;
+}
+
+/* h3 {
+  color: black;
+} */
+
+#my-id {
+  color: magenta;
+}
+
+p > strong {
+  color: black;
+}
+span {
+  display: block;
+}
+article {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  /* border-width: 3px;
+  border-style: dotted;
+  border-color: blue; */
+  border: 3px dotted blue;
+  padding: 20px;
+}
+
+p {
+  border: 1px dashed rgb(12, 1, 1);
+  padding: 10px;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #e2e4fa,
+    #bacdf7,
+    #84b8f2,
+    #12a6eb
+  );
+  /* background-color: rgba(141, 202, 202, 0.466); */
+  /* font-size: 1.4rem; */
+  /* width: 200px; */
+  /* line-height: 0.8; */
+}
+
+.heading-font {
+  font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: coral;
+}
+
+p:hover {
+  /* color: coral; */
+  background-color: rgba(182, 134, 116, 0.764);
+}
