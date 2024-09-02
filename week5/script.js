@@ -137,12 +137,3 @@ for (let i = 0; i < shoppingCart.length; i++) {
 }
 
 console.log("my shopping sum", sum);
-
-sum = shoppingCart.forEach(calculateTotal);
-
-function calculateTotal(item) {
-  sum = sum + item.price;
-  console.log(item.price);
-  return sum;
-}
-console.log("my shopping sum", sum);
