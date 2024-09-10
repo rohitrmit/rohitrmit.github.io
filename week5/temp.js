@@ -1,21 +1,29 @@
-// variables
-// const - use it when the value does not change
-// let - use it when we want to change the value
+// Variables: boxes where we store "value"
+// const : whose value does not change
+// let: whose value we want to change
 
-// number let a = 10
+// number let a = 10;
 // string let b = "Rohit" 'abcd' `pqrs`
-// boolean let c = true / false
+// boolean let c = true or false
 // null let d = null;
 // undefined let e;
-// object  let c = {a: 10, b:"Rohit"};
+// object let f = { a: 10, b:"abcd"};
 
-// arrays
-// let arr = [1, 3, 5, 7 ,9];
-// it starts with 0
+// let arr = [1,3,5,7,9];
+// let strArr = ["a", "b", "c"];
+// they start with position 0  arr[0] => 1 strArr [0] = "a"
+// arr.length
 
-// if (condition) { execute this if true}
-// else {execute this when it is false }
+// if else statment
+// if (condition) {
+//     execute this code when it is true;
+// }
+// else
+// {
+//     execute this code when it is false;
+// }
 
+// for loop
 // for (let i=0; i< 5; i++)
 // {
 //     console.log (i);

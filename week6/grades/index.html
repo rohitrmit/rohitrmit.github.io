@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript examples</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="outer">
+      <header>
+        <h1 class="abcd">My cat</h1>
+      </header>
+      <img src="cat.png" alt="this is a cat image" id="my-cat" />
+      <button onclick="toggleMe()">click me</button>
+      <p id="question1">How much did you score in the assignment 1?</p>
+      <input
+        type="number"
+        id="answer1"
+        placeholder="Enter a number between 1 to 30"
+      />
+
+      <p id="question2" class="abcd">
+        How much did you score in the assignment 2?
+      </p>
+
+      <input
+        type="number"
+        id="answer2"
+        placeholder="Enter a number between 1 to 30"
+      />
+      <button onclick="calculateGrade()">Check your grade</button>
+      <p id="report"></p>
+      <span class="abcd"> this is a span</span>
+    </section>
+  </body>
+</html>
