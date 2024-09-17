@@ -1,0 +1,15 @@
+DOM 
+select 
+querySelector: select an element - id, class, element 
+querySelectorAll: select multiple elements - class, elements
+
+document.querySelector("element/#id/.class")
+document.querySelectorAll("element/#id/.class")
+
+modification:
+textContent - p, h1-h6  : "new content"
+innerHTML - " <p> new para </p>"  - `<p class="abcd"> </p>`
+classList.add/remove/toggle   - add, remove or toggle between classes
+
+
+Event listeners:
