@@ -54,8 +54,8 @@ function removeMe() {
   count--;
 }
 
-boxContainer.addEventListener("mouseenter", dropMe);
-boxContainer.addEventListener("mouseleave", pickMe);
+boxContainer.addEventListener("mouseover", dropMe);
+boxContainer.addEventListener("mouseout", pickMe);
 function dropMe() {
   boxContainer.classList.add("drop");
 }
