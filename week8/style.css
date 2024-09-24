@@ -1,0 +1,131 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  /* text-align: center; */
+  margin: auto;
+  /* max-width: 900px; */
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+}
+
+.outer {
+  /* border: 2px dashed #e5e5cb68; */
+  /* max-width: 900px; */
+  min-height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border-radius: 5px; */
+  /* flex-wrap: wrap; */
+}
+
+img {
+  cursor: pointer;
+}
+
+.video-container {
+  display: flex;
+  gap: 1rem;
+  /* flex-wrap: wrap; */
+}
+
+.video-container > video {
+  /* flex: 1; */
+  width: 75%;
+  height: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* width: 200px; */
+  flex: 1;
+}
+
+.video-list button,
+.video-list button img {
+  border-radius: 15px;
+}
+
+.video-list button:hover {
+  scale: 0.96;
+}
+.video-controls,
+.timeline {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+}
+
+.video-controls button {
+  width: 56px;
+  height: 40px;
+  background-color: #d5cea3;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.video-controls button:hover {
+  scale: 0.9;
+}
+
+.video-controls button img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.timeline button {
+  padding: 10px 20px;
+  background-color: #d5cea3;
+  border: none;
+  color: #3c2a21;
+  border-radius: 5px;
+}
+
+.video-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-title h1 {
+  font-size: 1.2rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 15px;
+  background-color: #e5e5cb68;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background-color: coral;
+  width: 0;
+  transition: width 0.3s ease;
+}
