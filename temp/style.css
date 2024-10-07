@@ -1,0 +1,166 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  /* max-width: 1000px; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 20px;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  /* height: 200px; */
+  min-height: 200px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer img {
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: cornsilk;
+  /* scale: 0.95; */
+}
+
+.inner {
+  background-color: #d5cea3;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: none;
+  z-index: 1;
+}
+.inner p {
+  color: #3c2a21;
+}
+
+#more-info.show {
+  display: block;
+}
+
+header,
+footer {
+  height: 50px;
+  background-color: cornsilk;
+  min-width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#profile-button {
+  margin-right: 10px;
+}
+
+#profile-content {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: cornsilk;
+  min-width: 75px;
+  color: black;
+  display: none;
+}
+
+#profile-content ul > * {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+#profile-content ul > *:hover {
+  background-color: #e5e5cb7a;
+}
+
+#profile-content.show {
+  display: block;
+}
+
+#scroll-content {
+  overflow: auto;
+  /* height: 50px; */
+  height: 200px;
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+}
+
+#big-content {
+  width: 700px;
+  height: 700px;
+  padding-top: 40px;
+  margin: auto;
+}
+
+#slides-container {
+  display: flex;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #e5e5cb7a;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  font-size: 4rem;
+}
+
+#navigation {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#purple-box {
+  cursor: pointer;
+  background-color: purple;
+}
+
+#resize-pointer {
+  padding: 10px;
+  cursor: nwse-resize;
+  border: none;
+  background-color: coral;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 20px;
+  z-index: 3;
+}
+
+#resize-box img {
+  object-fit: cover;
+}
