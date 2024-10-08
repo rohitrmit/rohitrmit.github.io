@@ -1,0 +1,157 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 20px;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: cornsilk;
+  /* scale: 0.95; */
+}
+
+.inner {
+  background-color: #d5cea3;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  /* top: 30px; */
+  width: 100%;
+  display: none;
+  z-index: 1;
+}
+.inner p {
+  color: #3c2a21;
+}
+
+#more-info.show {
+  display: block;
+}
+
+.outer img {
+  cursor: pointer;
+}
+
+/* ------- drop down menu styling ------ */
+header,
+footer {
+  background-color: cornsilk;
+  width: 100%;
+  height: 50px;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+#profile-button {
+  border: 1px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+#profile-content {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  background-color: cornsilk;
+  width: 105px;
+  display: none;
+  z-index: 1;
+}
+
+#profile-content ul > li {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  list-style: none;
+}
+
+#profile-content ul > li:hover {
+  background-color: bisque;
+}
+
+#profile-content.show {
+  display: block;
+}
+
+/* -------scroll styling ------ */
+#scroll-content {
+  width: 400px;
+  height: 200px;
+  overflow: auto;
+  border: 2px dashed #e5e5cb7a;
+}
+
+#long-text {
+  width: 700px;
+  height: 700px;
+}
+/* -------slideshow styling ------ */
+
+.slides {
+  border: 2px dashed #e5e5cb7a;
+  font-size: 4rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slides-container {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+#navigation {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* -------drop box styling ------ */
+
+#purple-box {
+  cursor: pointer;
+  background-color: purple;
+}
+
+#drop-box {
+  cursor: pointer;
+}
