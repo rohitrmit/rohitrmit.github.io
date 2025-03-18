@@ -1,0 +1,105 @@
+/* ======================
+Rationale for the color scheme and typography: 
+
+1. I decided to use big shoudler stencil 
+becuase it has nice modern geometric stencil look which is fitting to my
+design theme
+2. I choose this color pallette becuase
+
+
+========================= */
+* {
+  /* color: hotpink; */
+}
+
+.purple-color {
+  color: rgba(128, 0, 128, 0.354);
+}
+body {
+  background-color: beige;
+  font-size: 1.2rem;
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* this is a comment  */
+
+h1 {
+  color: lime;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  color: lime;
+  font-size: 1.6rem;
+}
+
+/* h1,
+h3 {
+  color: lime;
+} */
+
+.blue-color {
+  color: blue;
+}
+
+#pink-color {
+  color: pink;
+}
+
+h1 {
+  color: red;
+}
+
+section {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.heading-border {
+  border: 3px dashed green;
+}
+
+/*
+ h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: blue;
+}
+
+li {
+  color: brown;
+}
+
+h3 {
+  color: violet;
+}
+*/
+
+/*
+curly braces { }
+parentheses < > 
+square brackets [ ]
+round brackets ( )
+colon :
+semicolon ;
+syntax: rules of the lang 
+
+
+*/
