@@ -1,0 +1,83 @@
+* {
+  /* color: hotpink; */
+}
+
+.blue-color {
+  color: blue;
+}
+body {
+  background-color: beige;
+  font-size: 1.1rem;
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: red;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.mt-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h2,
+h3 {
+  color: limegreen;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: brown;
+}
+
+#outcome {
+  color: yellowgreen;
+  border: 4px dashed brown;
+}
+
+section {
+  text-align: center;
+  border: 1px solid red;
+}
+
+/* li {
+  color: violet;
+} */
+/* CMD /  */
+
+/* h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+  font-weight: bold;
+}
+
+h3 {
+  color: brown;
+}
+
+p {
+  color: gray;
+} */
+/* 
+curly braces  { } - grouping 
+square brackets [ ]  - js
+round brackets ( ) - js 
+parantheses   < > - html 
+semicolon ; to end a line
+colon : property declaration 
+syntax : rules of a lang 
+hyphen - to connect words 
+back slash /
+forwad slash \ 
+dot . 
+hash # 
+*/
