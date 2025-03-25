@@ -36,5 +36,12 @@ p {
 span {
   color: blueviolet;
   /* display: block; */
-  display: none;
+  /* display: none; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
 }
