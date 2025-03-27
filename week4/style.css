@@ -32,11 +32,19 @@ p {
 
 span {
   color: blueviolet;
-  display: none;
+  /* display: none; */
   /* display:block; */
 }
 
 .blue-color {
   display: inline;
   color: blueviolet;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 20px;
 }
