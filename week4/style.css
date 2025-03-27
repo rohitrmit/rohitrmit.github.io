@@ -33,11 +33,19 @@ p {
 
 span {
   color: blueviolet;
-  display: none;
+  /* display: none; */
   /* display: block; */
 }
 
 .blue-color {
   display: inline;
   color: blueviolet;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
 }
