@@ -1,0 +1,42 @@
+body {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0 auto;
+  /* horizontal centering */
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 400px;
+  /* border: 1px solid rgba(220, 20, 60, 0.378); */
+  margin: 0 auto;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* line-height:200px; */
+  border-bottom: 3px dashed rgba(0, 128, 0, 0.316);
+  background-color: beige;
+}
+
+.vcenter {
+  line-height: 160px;
+  /* height - top padding - bottom paddiing */
+  /* 200 - 20 - 20 = 160 */
+}
+
+span {
+  color: blueviolet;
+  display: none;
+  /* display:block; */
+}
+
+.blue-color {
+  display: inline;
+  color: blueviolet;
+}
