@@ -3,6 +3,7 @@ const header = document.querySelector("header");
 // console.log(header.textContent);
 // console.log(header.innerHTML);
 let course = "OART1013";
+const body = document.querySelector("body");
 const topHeading = document.querySelector("h1");
 const myButton = document.querySelector("#my-button");
 console.log(myButton);
@@ -25,6 +26,7 @@ function handleClick() {
   // topHeading.textContent = "this is my new heading";
   myCat.classList.toggle("round");
   topHeading.classList.toggle("blue-color");
+  body.classList.toggle("beige-color");
 }
 
 // header.innerHTML += `<h2 class="blue-color">This is ${course} </h2>`;
