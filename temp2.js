@@ -13,3 +13,14 @@
 // myRecord.name = rk
 // arrays
 // let numbers = [2,4,6,8,10]
+// let students = ["r", "G","d"]
+// arrays start at 0
+// numbers[2] = 6
+
+//  if conditions
+// let grades =69
+// if (grades > 80) {
+// console.log("HD") }
+// else { console.log("PAss")}
+
+// for loops - repeat or loop through things
