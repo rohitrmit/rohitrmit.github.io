@@ -1,0 +1,28 @@
+:root {
+  --button-color: rgba(158, 158, 195, 0.37);
+  --button-padding: 12px;
+}
+
+audio,
+video {
+  display: block;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 600px;
+  height: 400px;
+}
+
+button {
+  padding: var(--button-padding);
+  font-size: 1.2rem;
+  border-radius: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+  background-color: var(--button-color);
+}
+
+button:hover {
+  scale: 0.9;
+}
