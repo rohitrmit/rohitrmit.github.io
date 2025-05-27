@@ -39,14 +39,21 @@ body {
   margin: 0 auto;
 }
 
-.ferris,
-.hammergame {
+.ferris {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* height: 200px; */
+}
+
+.hammergame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
 }
 
 /* #layout {
@@ -109,18 +116,29 @@ button:hover {
 }
 
 #hammer {
-  grid-column: 5;
+  /* grid-column: 5;
   grid-row: 2;
   scale: 0.6;
-  z-index: 0;
+  z-index: 0; */
+  width: 80px;
+  height: 300px;
   transform-style: preserve-3d;
+  /* position: relative; */
+}
+
+.gamesetup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 #bell {
-  grid-column: 5;
-  grid-row: 2;
-  scale: 0.2;
-  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  left: 35%;
 }
 
 #ring_3 {
@@ -166,8 +184,8 @@ button:hover {
 
 /* we spin the carousel using the spin animation not the horses */
 .carousel {
-  grid-column: 4;
-  grid-row: 2;
+  /* grid-column: 4;
+  grid-row: 2; */
   position: relative;
   width: 600px;
   height: 200px;
@@ -241,4 +259,18 @@ button:hover {
 
 .carousel:hover {
   animation-duration: 4s;
+}
+
+.bellanimation {
+  animation: moveBell 2s linear;
+}
+
+@keyframes moveBell {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-250px);
+  }
 }
