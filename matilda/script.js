@@ -74,7 +74,9 @@ dropBoxT.addEventListener("drop", function () {
     if (hiddenTop) {
       hiddenTop.style.display = "";
     }
-
+    // save the container of dragged top as hiddenTop and hide it using display:none
+    hiddenTop = draggedTops.parentElement;
+    hiddenTop.style.display = "none";
     console.log(draggedTops.id);
     // const cloneT = draggedTops;
     const cloneT = draggedTops.cloneNode(true);
@@ -93,9 +95,6 @@ dropBoxT.addEventListener("drop", function () {
     }
 
     dropBoxT.appendChild(cloneT);
-    // save the container of dragged top as hiddenTop and hide it using display:none
-    hiddenTop = draggedTops.parentElement;
-    hiddenTop.style.display = "none";
   }
 });
 
