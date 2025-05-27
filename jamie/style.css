@@ -262,7 +262,7 @@ button:hover {
 }
 
 .bellanimation {
-  animation: moveBell 2s linear;
+  animation: moveBell 2s linear 3;
 }
 
 @keyframes moveBell {

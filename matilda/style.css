@@ -1,0 +1,235 @@
+body {
+  font-family: "Georgia", serif;
+  background: #e4a1ba;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  color: #6e0930;
+}
+
+.container {
+  margin: 0 auto;
+  background: #f5ccdc;
+  border: 4px solid #8b093b;
+  border-radius: 30px;
+  width: 900px;
+  height: 650px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.model {
+  border: 2px solid rgb(226, 13, 49);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  position: absolute;
+}
+
+.clothes-column {
+  border: 2px solid rgb(226, 13, 49);
+  gap: 20px;
+  width: 400px;
+  position: absolute;
+  margin-left: 450px;
+}
+
+.layer2 {
+  width: 900px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(226, 13, 49);
+  position: relative;
+  z-index: 1;
+}
+#modelbox {
+  border: 2px solid rgb(226, 13, 49);
+  height: 500px;
+  margin-left: 125px;
+  margin-top: 20px;
+  position: relative;
+}
+#girl {
+  border: 2px solid rgb(226, 13, 49);
+  position: absolute;
+  z-index: -2;
+}
+.dropcont {
+  border: 2px solid rgb(226, 13, 49);
+  width: 155px;
+  position: relative;
+}
+.droptop {
+  border: 2px solid rgb(226, 13, 49);
+  min-width: 50%;
+  min-height: 120px;
+  position: absolute;
+  left: 4px;
+  top: 70px;
+  /* margin-top: 72px;
+  margin-left: 17px; */
+  background-color: rgba(240, 248, 255, 0.314);
+}
+
+#tshirt {
+  height: 120px;
+  width: 102px;
+  /* background-color: red; */
+}
+
+#shoulder {
+  height: 150px;
+  width: 132px;
+}
+
+.tshirt-pos {
+  left: 4px;
+  top: 70px;
+}
+
+.singlet-pos {
+  left: 17px;
+  top: 72px;
+}
+
+.should-pos {
+  left: 0px;
+  top: 100px;
+}
+
+.droppant {
+  border: 2px solid rgb(226, 13, 49);
+  width: 155px;
+  min-height: 180px;
+}
+.hanging {
+  border: 2px solid rgb(226, 13, 49);
+  width: 400px;
+  justify-content: center;
+}
+.toprow {
+  border: 2px solid rgb(226, 13, 49);
+  display: flex;
+  align-items: top;
+  gap: 10px;
+  margin: 10px;
+  margin-top: 43px;
+  margin-left: 35px;
+  width: 350px;
+}
+
+.toprow > * {
+  min-width: 80px;
+  min-height: 150px;
+}
+.legrow {
+  border: 2px solid rgb(226, 13, 49);
+  display: flex;
+  align-items: top;
+  gap: 10px;
+  margin: 10px;
+  margin-top: 43px;
+  margin-left: 20px;
+  width: 350px;
+}
+
+#sing {
+  border: 2px solid rgb(226, 13, 49);
+  margin: 3px;
+  min-height: 50px;
+  /* width: 80px; */
+}
+
+#shirt {
+  border: 2px solid rgb(226, 13, 49);
+  margin: 3px;
+  min-height: 50px;
+  /* width: 120px; */
+}
+
+#should {
+  border: 2px solid rgb(226, 13, 49);
+  margin: 3px;
+  min-height: 50px;
+  /* width: 150px; */
+}
+
+#skirt {
+  border: 2px solid rgb(226, 13, 49);
+  margin: 3px;
+  min-height: 50px;
+  width: 100px;
+}
+
+#short {
+  border: 2px solid rgb(226, 13, 49);
+  margin: 3px;
+  min-height: 50px;
+  width: 100px;
+}
+
+#pant {
+  border: 2px solid rgb(226, 13, 49);
+  margin: 3px;
+  min-height: 50px;
+  width: 100px;
+}
+
+.bottom-left {
+  border: 2px solid rgb(226, 13, 49);
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.small-boxes {
+  border: 2px solid rgb(226, 13, 49);
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+#mini-box1 {
+  border: 2px solid rgb(226, 13, 49);
+  width: 20px;
+  height: 20px;
+  background: #eec3af;
+}
+#mini-box2 {
+  border: 2px solid rgb(226, 13, 49);
+  width: 20px;
+  height: 20px;
+  background: #cb896d;
+}
+#mini-box3 {
+  border: 2px solid rgb(226, 13, 49);
+  width: 20px;
+  height: 20px;
+  background: #93644a;
+}
+#mini-box4 {
+  border: 2px solid rgb(226, 13, 49);
+  width: 20px;
+  height: 20px;
+  background: #85482c;
+}
+
+.bottom-bar {
+  border: 2px solid rgb(226, 13, 49);
+  width: 100px;
+  height: 20px;
+  background: #f0f0f0;
+}
+
+.selected {
+  display: none;
+}
