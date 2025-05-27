@@ -21,7 +21,7 @@
 const myTops = [
   { id: 1, name: "singlet", src: "WSinglet.png", styleid: "sing" },
   { id: 2, name: "tshirt", src: "PTshirt.png", styleid: "shirt" },
-  { id: 3, name: "shoulder", src: "Glong.png", styleid: "should" },
+  { id: 3, name: "shoulder", src: "GLong.png", styleid: "should" },
 ];
 
 function populate() {
