@@ -24,8 +24,12 @@ const myTops = [
   { id: 3, name: "shoulder", src: "GLong.png", styleid: "should" },
 ];
 
+const topContainer = document.querySelector(".toprow");
+
+let hiddenTop = null;
+
 function populate() {
-  const topContainer = document.querySelector(".toprow");
+  topContainer.innerHTML = "";
   let newContent = "";
   for (let i = 0; i < myTops.length; i++) {
     newContent += `
@@ -54,25 +58,26 @@ const dropBoxT = document.querySelector(".droptop");
 dropBoxT.innerHTML = "";
 for (let i = 0; i < tops.length; i++) {
   tops[i].addEventListener("dragstart", function () {
-    // if (tops[i].classList.contains("selected")) {
-    console.log(tops[i].classList);
-    // }
     draggedTops = tops[i];
     dropBoxT.innerHTML = "";
-    // tops[i].classList.add("selected");
-    // populate();
   });
 }
 
 dropBoxT.addEventListener("dragover", function (e) {
   e.preventDefault();
+  //   draggedTops.classList.add("selected");
 });
 
 dropBoxT.addEventListener("drop", function () {
   if (draggedTops && !dropBoxT.querySelector(".tops")) {
-    const cloneT = draggedTops.cloneNode(true);
+    // display previously hidden top
+    if (hiddenTop) {
+      hiddenTop.style.display = "";
+    }
+
     console.log(draggedTops.id);
     // const cloneT = draggedTops;
+    const cloneT = draggedTops.cloneNode(true);
     if (draggedTops.id === "singlet") {
       dropBoxT.classList.remove("tshirt-pos");
       dropBoxT.classList.remove("should-pos");
@@ -87,9 +92,10 @@ dropBoxT.addEventListener("drop", function () {
       dropBoxT.classList.add("should-pos");
     }
 
-    // draggedTops.classList.add("selected");
     dropBoxT.appendChild(cloneT);
-    // populate();
+    // save the container of dragged top as hiddenTop and hide it using display:none
+    hiddenTop = draggedTops.parentElement;
+    hiddenTop.style.display = "none";
   }
 });
 
