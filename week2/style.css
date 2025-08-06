@@ -1,0 +1,51 @@
+/* universal selector */
+
+/* * {
+  color: hotpink;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: bold; */
+  font-style: normal;
+  background-color: beige;
+}
+
+.blue-color {
+  color: blue;
+}
+
+h1 {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 32px;
+}
+h2 {
+  color: limegreen;
+}
+
+.lobster {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* p {
+  font-weight: bold;
+} */
+
+#purple-color,
+h3 {
+  color: purple;
+}
+
+section {
+  text-align: center;
+  border: 2px solid crimson;
+  margin-bottom: 20px;
+  background-color: rgba(215, 158, 137, 0.523);
+}
+
+h2 {
+  border: 1px dashed green;
+}
