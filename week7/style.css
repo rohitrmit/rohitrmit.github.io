@@ -1,0 +1,30 @@
+/* 
+my style guide:
+
+colors: I choose this color palette because...*/
+
+audio,
+video {
+  display: block;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: aliceblue;
+  margin-right: 10px;
+}
+
+button:hover {
+  scale: 0.9;
+}
