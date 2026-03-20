@@ -1,0 +1,111 @@
+/* h1 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+h4 {
+  color: blue;
+} */
+
+/* CMD + / */
+
+/* * {
+  color: hotpink;
+} */
+
+/* My design process for the styling is as follows:
+ I am using Roboto font becuase...
+ I am using this color palette .... 
+
+
+
+*/
+
+/* gsdgsdgsdg gsg asgsgs  */
+
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+/* 
+.bitcount-grid-double-ink-<uniquifier > {
+  font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+} */
+
+body {
+  margin-left: 30px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgb(238, 206, 163);
+}
+h1 {
+  font-size: 3rem;
+  /* text-transform: uppercase;
+  text-decoration: underline; */
+  font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.green-color {
+  color: green;
+}
+h4,
+.blue-color {
+  color: blue;
+}
+
+#venue {
+  color: chocolate;
+  font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h4 {
+  color: red;
+  font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+section {
+  text-align: center;
+  border: 2px solid crimson;
+}
+/* section > p {
+  border: 2px solid rgb(0, 255, 234);
+} */
+
+/* p {
+  border: 2px solid red;
+} */
+
+.border-styling {
+  border: 2px solid rgb(2, 33, 30);
+}
