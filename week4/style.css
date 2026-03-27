@@ -1,0 +1,60 @@
+body {
+  margin: auto;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  /* margin-left: 30px; */
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  width: 400px;
+  /* border: 1px solid black; */
+  border: 3px dashed red;
+  background-color: bisque;
+  /* min-height: 200px; */
+  height: 200px;
+  /* padding: 20px; */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.vcenter {
+  /* height: 200px; */
+  line-height: 200px;
+  text-align: center;
+}
+
+span {
+  color: rebeccapurple;
+  /* display: none; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+/*
+curly braces: { }
+round brackets: () 
+square brackets: []
+
+my fav class 
+in CSS:
+kebab case: my-fav-class
+in JS:
+CamelCase: myFavClass
+ 
+
+*/
