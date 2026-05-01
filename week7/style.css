@@ -1,3 +1,8 @@
+:root {
+  --primary-color: rgb(203, 203, 228);
+  --secondary-color: red;
+}
+
 audio {
   display: block;
   margin-bottom: 20px;
@@ -8,7 +13,8 @@ button {
   border-radius: 12px;
   padding: 8px;
   cursor: pointer;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-color: var(--primary-color);
   margin-right: 8px;
 }
 
