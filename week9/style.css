@@ -1,0 +1,173 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /* background-color: cornsilk; */
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease,
+    background-color 0.5s ease;
+}
+
+button {
+  padding: 20px 30px;
+  font-size: 1.4rem;
+  border-radius: 16px;
+  background-color: purple;
+  border-style: none;
+  color: bisque;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  transition:
+    background-color 0.8s ease,
+    scale 0.8s ease;
+}
+
+button:hover {
+  background-color: rgba(160, 38, 160, 0.962);
+  scale: 0.9;
+}
+
+#duck-icon {
+  transition: fill 0.8s ease;
+  cursor: pointer;
+}
+
+#duck-icon:hover {
+  fill: blue;
+}
+
+#duck {
+  transition:
+    translate 0.8s ease,
+    scale 0.8s ease,
+    rotate 0.8s ease;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+#duck:hover {
+  scale: 0.8;
+  rotate: 30deg;
+}
+
+#box {
+  width: 160px;
+  height: 160px;
+  background-color: lime;
+  color: black;
+  text-align: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* animation-name: sale; */
+  animation-name: promotion, sale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border: 3px dotted antiquewhite;
+}
+
+@keyframes sale {
+  0% {
+    background-color: lime;
+  }
+  30% {
+    background-color: peru;
+  }
+  50% {
+    background-color: firebrick;
+    /* scale: 1.2; */
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes promotion {
+  0% {
+    border-color: blue;
+  }
+  30% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: lime;
+    /* scale: 1.2; */
+  }
+  75% {
+    border-color: purple;
+  }
+  100% {
+    border-color: plum;
+  }
+}
+
+#loader {
+  width: 100px;
+  height: 100px;
+  border: 3px solid red;
+  border-bottom-color: blue;
+  border-top-color: blue;
+  animation-name: spinning;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+}
+
+@keyframes spinning {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  70%,
+  100% {
+    translate: 0px 0px;
+  }
+  40% {
+    translate: 0px -30px;
+  }
+  60% {
+    translate: 0px -10px;
+  }
+}
